@@ -14,7 +14,7 @@ exports.default = async function notarizing(context) {
   await notarize({
     appPath,
     tool: 'notarytool',
-    keychainProfile: 'inaki-notarize',
+    keychainProfile: 'leonel-notarize',
   });
 
   console.log('Notarization complete!');

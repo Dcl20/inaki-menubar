@@ -316,10 +316,10 @@ function showConnectScreen() {
   <div class="subtitle">by Iñaki</div>
   <div class="instructions">
     <div class="step">Para conectar tu cuenta:</div>
-    <div class="step">1. Abre <strong>iñaki.app</strong> en tu navegador</div>
+    <div class="step">1. Haz clic en el boton de abajo</div>
     <div class="step">2. Haz clic en <strong>"Conectar mi cuenta"</strong></div>
     <div class="step">3. Quick se conectara automaticamente</div>
-    <a class="link" href="https://inaki-web.vercel.app" target="_blank">Abrir iñaki.app</a>
+    <a class="link" href="https://inaki-web.vercel.app?quick=connect" target="_blank">Conectar cuenta</a>
   </div>
   <div class="shortcut">${shortcut} para abrir/cerrar</div>
 </body>
